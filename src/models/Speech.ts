@@ -2,9 +2,9 @@ import { Column as Col, CreatedAt, Model, Table, UpdatedAt } from "sequelize-typ
 
 
 @Table({
-    tableName:'roles'
+    tableName:'speechs'
 })
-export class Role extends Model{
+export class Speech extends Model{
 
     @Col
     name!:string
@@ -15,7 +15,5 @@ export class Role extends Model{
     @UpdatedAt
     updated_at!: Date
 }
-
-
 
 
